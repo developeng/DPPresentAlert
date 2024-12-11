@@ -1,0 +1,788 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		570778972CE58A11006726D0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 570778962CE58A11006726D0 /* AppDelegate.swift */; };
+		570778992CE58A11006726D0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 570778982CE58A11006726D0 /* SceneDelegate.swift */; };
+		5707789B2CE58A11006726D0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5707789A2CE58A11006726D0 /* ViewController.swift */; };
+		5707789E2CE58A11006726D0 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 5707789D2CE58A11006726D0 /* Base */; };
+		570778A02CE58A12006726D0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5707789F2CE58A12006726D0 /* Assets.xcassets */; };
+		570778A32CE58A12006726D0 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 570778A22CE58A12006726D0 /* Base */; };
+		570778AE2CE58A12006726D0 /* DPPresentAlertTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 570778AD2CE58A12006726D0 /* DPPresentAlertTests.swift */; };
+		570778B82CE58A12006726D0 /* DPPresentAlertUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 570778B72CE58A12006726D0 /* DPPresentAlertUITests.swift */; };
+		570778BA2CE58A12006726D0 /* DPPresentAlertUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 570778B92CE58A12006726D0 /* DPPresentAlertUITestsLaunchTests.swift */; };
+		570778C82CE58AB2006726D0 /* DPTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 570778C72CE58AB2006726D0 /* DPTabBarController.swift */; };
+		570778CA2CE58ACE006726D0 /* DPNavViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 570778C92CE58ACE006726D0 /* DPNavViewController.swift */; };
+		570778CC2CE58AEC006726D0 /* DPMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 570778CB2CE58AEC006726D0 /* DPMainViewController.swift */; };
+		570778CE2CE58B1E006726D0 /* DPMineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 570778CD2CE58B1E006726D0 /* DPMineViewController.swift */; };
+		570778D02CE58BA5006726D0 /* DPPresentAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 570778CF2CE58BA5006726D0 /* DPPresentAlert.swift */; };
+		570778D22CE58C22006726D0 /* DPPresentationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 570778D12CE58C22006726D0 /* DPPresentationController.swift */; };
+		570778D42CE595E6006726D0 /* DPRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 570778D32CE595E6006726D0 /* DPRouter.swift */; };
+		570778D62CE5DD57006726D0 /* DPDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 570778D52CE5DD57006726D0 /* DPDetailViewController.swift */; };
+		576162C82D084D300019C639 /* DPOverlayWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 576162C72D084D300019C639 /* DPOverlayWindow.swift */; };
+		576162CA2D084D780019C639 /* DPOverlayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 576162C92D084D780019C639 /* DPOverlayViewController.swift */; };
+		576162CC2D084DA50019C639 /* OverlayPopupProperty.swift in Sources */ = {isa = PBXBuildFile; fileRef = 576162CB2D084DA50019C639 /* OverlayPopupProperty.swift */; };
+		576162CE2D084E370019C639 /* Define.swift in Sources */ = {isa = PBXBuildFile; fileRef = 576162CD2D084E360019C639 /* Define.swift */; };
+		576162D12D084EB80019C639 /* Auto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 576162D02D084EB80019C639 /* Auto.swift */; };
+		576162D32D084EC80019C639 /* UIColorEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 576162D22D084EC70019C639 /* UIColorEx.swift */; };
+		576162DE2D0860730019C639 /* OverlayTestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 576162DD2D0860730019C639 /* OverlayTestView.swift */; };
+		576162E02D0860C00019C639 /* WHReportEnumItemModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 576162DF2D0860C00019C639 /* WHReportEnumItemModel.swift */; };
+		9E1C072AF4D46CEFAF24FE70 /* Pods_DPPresentAlert.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A356E85EEBA319A9BA3F694 /* Pods_DPPresentAlert.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		570778AA2CE58A12006726D0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5707788B2CE58A10006726D0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 570778922CE58A10006726D0;
+			remoteInfo = DPPresentAlert;
+		};
+		570778B42CE58A12006726D0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5707788B2CE58A10006726D0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 570778922CE58A10006726D0;
+			remoteInfo = DPPresentAlert;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		570778932CE58A10006726D0 /* DPPresentAlert.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DPPresentAlert.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		570778962CE58A11006726D0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		570778982CE58A11006726D0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		5707789A2CE58A11006726D0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5707789D2CE58A11006726D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5707789F2CE58A12006726D0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		570778A22CE58A12006726D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		570778A42CE58A12006726D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		570778A92CE58A12006726D0 /* DPPresentAlertTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DPPresentAlertTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		570778AD2CE58A12006726D0 /* DPPresentAlertTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DPPresentAlertTests.swift; sourceTree = "<group>"; };
+		570778B32CE58A12006726D0 /* DPPresentAlertUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DPPresentAlertUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		570778B72CE58A12006726D0 /* DPPresentAlertUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DPPresentAlertUITests.swift; sourceTree = "<group>"; };
+		570778B92CE58A12006726D0 /* DPPresentAlertUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DPPresentAlertUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		570778C72CE58AB2006726D0 /* DPTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DPTabBarController.swift; sourceTree = "<group>"; };
+		570778C92CE58ACE006726D0 /* DPNavViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DPNavViewController.swift; sourceTree = "<group>"; };
+		570778CB2CE58AEC006726D0 /* DPMainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DPMainViewController.swift; sourceTree = "<group>"; };
+		570778CD2CE58B1E006726D0 /* DPMineViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DPMineViewController.swift; sourceTree = "<group>"; };
+		570778CF2CE58BA5006726D0 /* DPPresentAlert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DPPresentAlert.swift; sourceTree = "<group>"; };
+		570778D12CE58C22006726D0 /* DPPresentationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DPPresentationController.swift; sourceTree = "<group>"; };
+		570778D32CE595E6006726D0 /* DPRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DPRouter.swift; sourceTree = "<group>"; };
+		570778D52CE5DD57006726D0 /* DPDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DPDetailViewController.swift; sourceTree = "<group>"; };
+		576162C72D084D300019C639 /* DPOverlayWindow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DPOverlayWindow.swift; sourceTree = "<group>"; };
+		576162C92D084D780019C639 /* DPOverlayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DPOverlayViewController.swift; sourceTree = "<group>"; };
+		576162CB2D084DA50019C639 /* OverlayPopupProperty.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OverlayPopupProperty.swift; sourceTree = "<group>"; };
+		576162CD2D084E360019C639 /* Define.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Define.swift; sourceTree = "<group>"; };
+		576162D02D084EB80019C639 /* Auto.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Auto.swift; sourceTree = "<group>"; };
+		576162D22D084EC70019C639 /* UIColorEx.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColorEx.swift; sourceTree = "<group>"; };
+		576162DD2D0860730019C639 /* OverlayTestView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OverlayTestView.swift; sourceTree = "<group>"; };
+		576162DF2D0860C00019C639 /* WHReportEnumItemModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WHReportEnumItemModel.swift; sourceTree = "<group>"; };
+		9A356E85EEBA319A9BA3F694 /* Pods_DPPresentAlert.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DPPresentAlert.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2C0F0680788D66ADDF9BFB7 /* Pods-DPPresentAlert.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DPPresentAlert.release.xcconfig"; path = "Target Support Files/Pods-DPPresentAlert/Pods-DPPresentAlert.release.xcconfig"; sourceTree = "<group>"; };
+		CEFDBC1A56FBDD1212FB1379 /* Pods-DPPresentAlert.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DPPresentAlert.debug.xcconfig"; path = "Target Support Files/Pods-DPPresentAlert/Pods-DPPresentAlert.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		570778902CE58A10006726D0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E1C072AF4D46CEFAF24FE70 /* Pods_DPPresentAlert.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		570778A62CE58A12006726D0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		570778B02CE58A12006726D0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		29706CF51B013758C7AF69B9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CEFDBC1A56FBDD1212FB1379 /* Pods-DPPresentAlert.debug.xcconfig */,
+				A2C0F0680788D66ADDF9BFB7 /* Pods-DPPresentAlert.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		298F94AD0376A89EA099D7EF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9A356E85EEBA319A9BA3F694 /* Pods_DPPresentAlert.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5707788A2CE58A10006726D0 = {
+			isa = PBXGroup;
+			children = (
+				570778952CE58A10006726D0 /* DPPresentAlert */,
+				570778AC2CE58A12006726D0 /* DPPresentAlertTests */,
+				570778B62CE58A12006726D0 /* DPPresentAlertUITests */,
+				570778942CE58A10006726D0 /* Products */,
+				29706CF51B013758C7AF69B9 /* Pods */,
+				298F94AD0376A89EA099D7EF /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		570778942CE58A10006726D0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				570778932CE58A10006726D0 /* DPPresentAlert.app */,
+				570778A92CE58A12006726D0 /* DPPresentAlertTests.xctest */,
+				570778B32CE58A12006726D0 /* DPPresentAlertUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		570778952CE58A10006726D0 /* DPPresentAlert */ = {
+			isa = PBXGroup;
+			children = (
+				576162CF2D084E950019C639 /* Config */,
+				576162C62D084CDC0019C639 /* OverlayWindow */,
+				570778C62CE58A42006726D0 /* PresentAlert */,
+				570778962CE58A11006726D0 /* AppDelegate.swift */,
+				570778982CE58A11006726D0 /* SceneDelegate.swift */,
+				5707789A2CE58A11006726D0 /* ViewController.swift */,
+				570778C72CE58AB2006726D0 /* DPTabBarController.swift */,
+				570778C92CE58ACE006726D0 /* DPNavViewController.swift */,
+				570778CB2CE58AEC006726D0 /* DPMainViewController.swift */,
+				570778CD2CE58B1E006726D0 /* DPMineViewController.swift */,
+				570778D52CE5DD57006726D0 /* DPDetailViewController.swift */,
+				5707789C2CE58A11006726D0 /* Main.storyboard */,
+				5707789F2CE58A12006726D0 /* Assets.xcassets */,
+				570778A12CE58A12006726D0 /* LaunchScreen.storyboard */,
+				570778A42CE58A12006726D0 /* Info.plist */,
+			);
+			path = DPPresentAlert;
+			sourceTree = "<group>";
+		};
+		570778AC2CE58A12006726D0 /* DPPresentAlertTests */ = {
+			isa = PBXGroup;
+			children = (
+				570778AD2CE58A12006726D0 /* DPPresentAlertTests.swift */,
+			);
+			path = DPPresentAlertTests;
+			sourceTree = "<group>";
+		};
+		570778B62CE58A12006726D0 /* DPPresentAlertUITests */ = {
+			isa = PBXGroup;
+			children = (
+				570778B72CE58A12006726D0 /* DPPresentAlertUITests.swift */,
+				570778B92CE58A12006726D0 /* DPPresentAlertUITestsLaunchTests.swift */,
+			);
+			path = DPPresentAlertUITests;
+			sourceTree = "<group>";
+		};
+		570778C62CE58A42006726D0 /* PresentAlert */ = {
+			isa = PBXGroup;
+			children = (
+				570778D32CE595E6006726D0 /* DPRouter.swift */,
+				570778CF2CE58BA5006726D0 /* DPPresentAlert.swift */,
+				570778D12CE58C22006726D0 /* DPPresentationController.swift */,
+			);
+			path = PresentAlert;
+			sourceTree = "<group>";
+		};
+		576162C62D084CDC0019C639 /* OverlayWindow */ = {
+			isa = PBXGroup;
+			children = (
+				576162DB2D0860360019C639 /* OverlayWindow */,
+				576162DC2D08604E0019C639 /* Test */,
+			);
+			path = OverlayWindow;
+			sourceTree = "<group>";
+		};
+		576162CF2D084E950019C639 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				576162D22D084EC70019C639 /* UIColorEx.swift */,
+				576162D02D084EB80019C639 /* Auto.swift */,
+				576162CD2D084E360019C639 /* Define.swift */,
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+		576162DB2D0860360019C639 /* OverlayWindow */ = {
+			isa = PBXGroup;
+			children = (
+				576162C72D084D300019C639 /* DPOverlayWindow.swift */,
+				576162C92D084D780019C639 /* DPOverlayViewController.swift */,
+				576162CB2D084DA50019C639 /* OverlayPopupProperty.swift */,
+			);
+			path = OverlayWindow;
+			sourceTree = "<group>";
+		};
+		576162DC2D08604E0019C639 /* Test */ = {
+			isa = PBXGroup;
+			children = (
+				576162DD2D0860730019C639 /* OverlayTestView.swift */,
+				576162DF2D0860C00019C639 /* WHReportEnumItemModel.swift */,
+			);
+			path = Test;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		570778922CE58A10006726D0 /* DPPresentAlert */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 570778BD2CE58A12006726D0 /* Build configuration list for PBXNativeTarget "DPPresentAlert" */;
+			buildPhases = (
+				5E148F72A75B019CE4E5906B /* [CP] Check Pods Manifest.lock */,
+				5707788F2CE58A10006726D0 /* Sources */,
+				570778902CE58A10006726D0 /* Frameworks */,
+				570778912CE58A10006726D0 /* Resources */,
+				7C10E78B739AE1AB8C37AC63 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DPPresentAlert;
+			productName = DPPresentAlert;
+			productReference = 570778932CE58A10006726D0 /* DPPresentAlert.app */;
+			productType = "com.apple.product-type.application";
+		};
+		570778A82CE58A12006726D0 /* DPPresentAlertTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 570778C02CE58A12006726D0 /* Build configuration list for PBXNativeTarget "DPPresentAlertTests" */;
+			buildPhases = (
+				570778A52CE58A12006726D0 /* Sources */,
+				570778A62CE58A12006726D0 /* Frameworks */,
+				570778A72CE58A12006726D0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				570778AB2CE58A12006726D0 /* PBXTargetDependency */,
+			);
+			name = DPPresentAlertTests;
+			productName = DPPresentAlertTests;
+			productReference = 570778A92CE58A12006726D0 /* DPPresentAlertTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		570778B22CE58A12006726D0 /* DPPresentAlertUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 570778C32CE58A12006726D0 /* Build configuration list for PBXNativeTarget "DPPresentAlertUITests" */;
+			buildPhases = (
+				570778AF2CE58A12006726D0 /* Sources */,
+				570778B02CE58A12006726D0 /* Frameworks */,
+				570778B12CE58A12006726D0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				570778B52CE58A12006726D0 /* PBXTargetDependency */,
+			);
+			name = DPPresentAlertUITests;
+			productName = DPPresentAlertUITests;
+			productReference = 570778B32CE58A12006726D0 /* DPPresentAlertUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5707788B2CE58A10006726D0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					570778922CE58A10006726D0 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					570778A82CE58A12006726D0 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 570778922CE58A10006726D0;
+					};
+					570778B22CE58A12006726D0 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 570778922CE58A10006726D0;
+					};
+				};
+			};
+			buildConfigurationList = 5707788E2CE58A10006726D0 /* Build configuration list for PBXProject "DPPresentAlert" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5707788A2CE58A10006726D0;
+			productRefGroup = 570778942CE58A10006726D0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				570778922CE58A10006726D0 /* DPPresentAlert */,
+				570778A82CE58A12006726D0 /* DPPresentAlertTests */,
+				570778B22CE58A12006726D0 /* DPPresentAlertUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		570778912CE58A10006726D0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				570778A02CE58A12006726D0 /* Assets.xcassets in Resources */,
+				570778A32CE58A12006726D0 /* Base in Resources */,
+				5707789E2CE58A11006726D0 /* Base in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		570778A72CE58A12006726D0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		570778B12CE58A12006726D0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5E148F72A75B019CE4E5906B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DPPresentAlert-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7C10E78B739AE1AB8C37AC63 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DPPresentAlert/Pods-DPPresentAlert-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DPPresentAlert/Pods-DPPresentAlert-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DPPresentAlert/Pods-DPPresentAlert-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5707788F2CE58A10006726D0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5707789B2CE58A11006726D0 /* ViewController.swift in Sources */,
+				570778972CE58A11006726D0 /* AppDelegate.swift in Sources */,
+				570778992CE58A11006726D0 /* SceneDelegate.swift in Sources */,
+				570778D62CE5DD57006726D0 /* DPDetailViewController.swift in Sources */,
+				570778CC2CE58AEC006726D0 /* DPMainViewController.swift in Sources */,
+				570778D02CE58BA5006726D0 /* DPPresentAlert.swift in Sources */,
+				570778D22CE58C22006726D0 /* DPPresentationController.swift in Sources */,
+				570778CE2CE58B1E006726D0 /* DPMineViewController.swift in Sources */,
+				570778D42CE595E6006726D0 /* DPRouter.swift in Sources */,
+				576162DE2D0860730019C639 /* OverlayTestView.swift in Sources */,
+				576162E02D0860C00019C639 /* WHReportEnumItemModel.swift in Sources */,
+				570778C82CE58AB2006726D0 /* DPTabBarController.swift in Sources */,
+				576162CC2D084DA50019C639 /* OverlayPopupProperty.swift in Sources */,
+				576162CA2D084D780019C639 /* DPOverlayViewController.swift in Sources */,
+				576162C82D084D300019C639 /* DPOverlayWindow.swift in Sources */,
+				576162CE2D084E370019C639 /* Define.swift in Sources */,
+				576162D12D084EB80019C639 /* Auto.swift in Sources */,
+				570778CA2CE58ACE006726D0 /* DPNavViewController.swift in Sources */,
+				576162D32D084EC80019C639 /* UIColorEx.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		570778A52CE58A12006726D0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				570778AE2CE58A12006726D0 /* DPPresentAlertTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		570778AF2CE58A12006726D0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				570778B82CE58A12006726D0 /* DPPresentAlertUITests.swift in Sources */,
+				570778BA2CE58A12006726D0 /* DPPresentAlertUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		570778AB2CE58A12006726D0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 570778922CE58A10006726D0 /* DPPresentAlert */;
+			targetProxy = 570778AA2CE58A12006726D0 /* PBXContainerItemProxy */;
+		};
+		570778B52CE58A12006726D0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 570778922CE58A10006726D0 /* DPPresentAlert */;
+			targetProxy = 570778B42CE58A12006726D0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5707789C2CE58A11006726D0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5707789D2CE58A11006726D0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		570778A12CE58A12006726D0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				570778A22CE58A12006726D0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		570778BB2CE58A12006726D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		570778BC2CE58A12006726D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		570778BE2CE58A12006726D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CEFDBC1A56FBDD1212FB1379 /* Pods-DPPresentAlert.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J64WJR5K3F;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DPPresentAlert/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = developeng.DPPresentAlert;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		570778BF2CE58A12006726D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A2C0F0680788D66ADDF9BFB7 /* Pods-DPPresentAlert.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J64WJR5K3F;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DPPresentAlert/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = developeng.DPPresentAlert;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		570778C12CE58A12006726D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J64WJR5K3F;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = developeng.DPPresentAlertTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DPPresentAlert.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DPPresentAlert";
+			};
+			name = Debug;
+		};
+		570778C22CE58A12006726D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J64WJR5K3F;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = developeng.DPPresentAlertTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DPPresentAlert.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DPPresentAlert";
+			};
+			name = Release;
+		};
+		570778C42CE58A12006726D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J64WJR5K3F;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = developeng.DPPresentAlertUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DPPresentAlert;
+			};
+			name = Debug;
+		};
+		570778C52CE58A12006726D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J64WJR5K3F;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = developeng.DPPresentAlertUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DPPresentAlert;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5707788E2CE58A10006726D0 /* Build configuration list for PBXProject "DPPresentAlert" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				570778BB2CE58A12006726D0 /* Debug */,
+				570778BC2CE58A12006726D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		570778BD2CE58A12006726D0 /* Build configuration list for PBXNativeTarget "DPPresentAlert" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				570778BE2CE58A12006726D0 /* Debug */,
+				570778BF2CE58A12006726D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		570778C02CE58A12006726D0 /* Build configuration list for PBXNativeTarget "DPPresentAlertTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				570778C12CE58A12006726D0 /* Debug */,
+				570778C22CE58A12006726D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		570778C32CE58A12006726D0 /* Build configuration list for PBXNativeTarget "DPPresentAlertUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				570778C42CE58A12006726D0 /* Debug */,
+				570778C52CE58A12006726D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5707788B2CE58A10006726D0 /* Project object */;
+}
